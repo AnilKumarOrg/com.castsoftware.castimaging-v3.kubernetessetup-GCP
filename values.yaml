@@ -12,6 +12,7 @@ namespace: castimaging-v3
 # Kubernetes Provider: 
 # - For Azure:  AKS
 # - For AWS:    EKS
+# - For GCP:    GKE
 K8SProvider: AKS
 #
 # External network access
@@ -60,7 +61,9 @@ EKS_FSdriver: efs.csi.aws.com
 #   AKS drivers:
 AKS_DSdriver: disk.csi.azure.com
 AKS_FSdriver: file.csi.azure.com
-
+# GKE drivers:
+GKE_DSdriver: pd.csi.storage.gke.io
+GKE_FSdriver: file.csi.gcp.com
 #
 # Size of volumes
 #
