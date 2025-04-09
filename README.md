@@ -23,7 +23,7 @@ Guide to deploy Imaging on EKS
 Guide to deploy Imaging on AKS
 
 ### [GCP GKE Configuration](README-GCP-GKE.md)
-Guide to deploy Imaging on AKS
+Guide to deploy Imaging on GKE
 ## Upgrade Documentation
 
 ### [Version Upgrade from 3.1.1 Guide](README-3.1.1-Upgrade.md)
